@@ -1,0 +1,14 @@
+﻿<Window x:Class="Astronema.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Astronema"
+        mc:Ignorable="d"
+        Title="Astronema" Height="312.5" Width="502.5">
+    <Grid Background="PaleTurquoise">
+        <TextBox x:Name="Commands" HorizontalAlignment="Left" Height="206" Margin="10,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="474" TextChanged="Commands_TextChanged"/>
+        <ProgressBar x:Name="Progress" HorizontalAlignment="Left" Height="24" Margin="10,247,0,0" VerticalAlignment="Top" Width="474"/>
+        <ScrollBar x:Name="scrollBar" HorizontalAlignment="Left" Margin="467,21,0,0" VerticalAlignment="Top" Height="206"/>
+    </Grid>
+</Window>
